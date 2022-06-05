@@ -7,7 +7,7 @@ function Box() {
   useFrame(() => {
     // console.log("Hey, I'm executing every frame!");
     // console.log(boxRef.current.rotation)
-    boxRef.current.rotation.x += 0.001;
+    boxRef.current.rotation.x += 0.011;
     // boxRef.current.rotation.y += 0.01;
 
   });

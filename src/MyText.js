@@ -4,7 +4,7 @@ import { extend } from '@react-three/fiber';
 import TimesNewRoman from './times-new-roman.ttf';
 
 extend({ Text });
-const text = "Hello world!";
+const text = "The Sample Cube";
 function MyText() {
   const [opts, setOpts] = useState({
     font: TimesNewRoman,

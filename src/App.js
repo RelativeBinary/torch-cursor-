@@ -18,6 +18,8 @@ function App() {
   };
   // mouse follow source: https://codesandbox.io/s/r3f-mouse-8d3ho?file=/src/index.js:317-403
   // don't forget to read react three fiber docs 
+
+  // TODO this sort of effect is mad laggy, might need to figure out performance issues if i really want to use this in a legit project
   return (
     <div className='canvas-container' onMouseMove={(ev) => handleMouseMove(ev)}>
       <div
